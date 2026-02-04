@@ -4,3 +4,15 @@
 - Student ID:  6702041511055
 - Name:  Rungnapha Aiamchukun
 - Email: s6702041511055@email.kmutnb.ac.th
+
+## Environment
+```sh
+cp env.simple .env
+```
+
+## Running services
+### Database
+```sh
+docker compose -f app.yaml up # monitoring
+docker compose -f app.yaml up -d # background
+```

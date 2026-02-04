@@ -1,0 +1,9 @@
+services:
+  s3admin:
+    image: prawee/strapi
+    container_name: 68-s3-app
+    environment: 
+      DATABASE_USER: ${DATABASE_USER}
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+    ports: 
+      - ${DATABASE_PORT}
